@@ -1,13 +1,15 @@
 <!DOCTYPE
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head>
+<head>
     <title>My First Page</title>
     <meta charset="utf-8">
-  </head>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
   <body>
       <!--HEADER-->
-      <header>
-          <div>
+      <header class="header">
+          <div class="container">
               <h1>Main Header Here</h1>
               <h2>
                  <small>And small sub header</small> 
@@ -16,8 +18,8 @@
       </header>
       <!--/HEARER-->
       <!--NAVIGATION-->
-      <nav>
-          <div>
+      <nav class="page-navigation">
+          <div class="container">
               <ul>
                   <li><a href="#">Home </a></li>
                   <li><a href="#">About</a></li>
@@ -26,7 +28,7 @@
               </ul>
 
               <!--LOGIN FORM-->
-              <form action="#">
+              <form action="#" class=" login">
                   <input type="text" placeholder="Login" required>
                   <input type="password" placeholder="Password" required>
                   <input type="submit" value="Sign In"
@@ -36,14 +38,14 @@
       </nav>
       <!--/NAVIGATION-->
       <!--MAIN SECTION-->
-      <main>
+      <main class="container">
           <div>
-              <h2>Image collection<small>Visualize Quality</small></h2>
-              <div>
-                  <div>
-                      <div>
-                          <img src="images\green-circles.jpg" alt="List picture" width="300" height="" />
-                          <div>
+              <h2 class="collection-title">Image collection  <small>Visualize Quality</small></h2>
+              <div class="collection">
+                  <div class="collection-item-outer">
+                      <div class="collection-item">
+                          <img src="images\green-circles.jpg" alt="List picture" width="" height="" />
+                          <div class="collection-text">
                               <h3>List Element Item</h3>
                               <p>
                                   Lorem  mkxzmklxcvmx,c vm,cxmvkxcmvx.,cnv,mcx vm,bxcvxc
@@ -54,12 +56,12 @@
                           </div>
                       </div>
                   </div>
-                  <div>
-                      <div>
-                          <img src="images\green-circles.jpg" alt="List picture" width="300" height="" />
-                          <div>
+                  <div class="collection-item-outer">
+                      <div class="collection-item">
+                          <img src="images\green-circles.jpg" alt="List picture" width="" height="" />
+                          <div class="collection-text">
                               <h3>List Element Item</h3>
-                              <p>
+                              <p> 
                                   Lorem  mkxzmklxcvmx,c vm,cxmvkxcmvx.,cnv,mcx vm,bxcvxc
                                   cnvcxnvmcx, v,mxcnvmx cm nmnvkcxnvmxnmxcnvmxncvm mnjxcvxc
                                   jjnk kkjk jkj kjk j jg h kjkjdkkdnmk djknvlkdsvm mkm
@@ -68,10 +70,10 @@
                           </div>
                       </div>
                   </div>
-                  <div>
-                      <div>
-                          <img src="images\green-circles.jpg" alt="List picture" width="300" height="" />
-                          <div>
+                  <div class="collection-item-outer">
+                      <div class="collection-item">
+                          <img src="images\green-circles.jpg" alt="List picture" width="" height="" />
+                          <div class="collection-text">
                               <h3>List Element Item</h3>
                               <p>
                                   Lorem  mkxzmklxcvmx,c vm,cxmvkxcmvx.,cnv,mcx vm,bxcvxc
@@ -85,14 +87,14 @@
               </div>
 
 
-              <h2>Video collection<small>Visualize Quality</small></h2>
-              <div>
-                  <div>
-                      <div>
+              <h2 class="collection-title">Video collection  <small>Visualize Quality</small></h2>
+              <div class="collection">
+                  <div class="collection-item-outer">
+                      <div class=" collection-item">
                           <video controls>
                               <source src="video\stock.mp4" type="video/mp4" />
                           </video>
-                          <div>
+                          <div class="collection-text">
                               <h3>List Element Item</h3>
                               <p>
                                   Lorem  mkxzmklxcvmx,c vm,cxmvkxcmvx.,cnv,mcx vm,bxcvxc
@@ -103,28 +105,28 @@
                           </div>
                       </div>
                   </div>
-                  <div>
-                      <div>
+                  <div class="collection-item-outer">
+                      <div class=" collection-item">
                           <video controls>
                               <source src="video\stock.mp4" type="video/mp4" />
                           </video>
-                              <div>
-                                  <h3>List Element Item</h3>
-                                  <p>
-                                      Lorem  mkxzmklxcvmx,c vm,cxmvkxcmvx.,cnv,mcx vm,bxcvxc
-                                      cnvcxnvmcx, v,mxcnvmx cm nmnvkcxnvmxnmxcnvmxncvm mnjxcvxc
-                                      jjnk kkjk jkj kjk j jg h kjkjdkkdnmk djknvlkdsvm mkm
-                                  </p>
-                                  <button>Read More....</button>
-                              </div>
+                          <div class="collection-text">
+                              <h3>List Element Item</h3>
+                              <p>
+                                  Lorem  mkxzmklxcvmx,c vm,cxmvkxcmvx.,cnv,mcx vm,bxcvxc
+                                  cnvcxnvmcx, v,mxcnvmx cm nmnvkcxnvmxnmxcnvmxncvm mnjxcvxc
+                                  jjnk kkjk jkj kjk j jg h kjkjdkkdnmk djknvlkdsvm mkm
+                              </p>
+                              <button>Read More....</button>
+                          </div>
                       </div>
                   </div>
-                  <div>
-                      <div>
+                  <div class="collection-item-outer">
+                      <div class=" collection-item">
                           <video controls>
                               <source src="video\stock.mp4" type="video/mp4" />
                           </video>
-                          <div>
+                          <div class="collection-text">
                               <h3>List Element Item</h3>
                               <p>
                                   Lorem  mkxzmklxcvmx,c vm,cxmvkxcmvx.,cnv,mcx vm,bxcvxc
@@ -142,7 +144,7 @@
       <!--FOOTER-->
       <footer>
           <div>
-              <p>Copyright EUV desighn</p>
+              <p>Copyright my design</p>
           </div>
       </footer>
       <!--/FOOTER-->
